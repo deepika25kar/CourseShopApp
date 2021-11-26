@@ -33,19 +33,19 @@
     <img src="images/logo.PNG" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Course Shop App</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An online Course Shopping Website made with NodeJS!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/deepika25kar/CourseShopApp/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="http://18.195.94.177/">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/deepika25kar/CourseShopApp/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/deepika25kar/CourseShopApp/issues">Request Feature</a>
   </p>
 </div>
 
@@ -93,7 +93,7 @@ Here's why:
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
-Use the `BLANK_README.md` to get started.
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -101,7 +101,7 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Here is a list of Major frameworks/libraries that used in my project. 
 
 * [Next.js](https://nextjs.org/)
 * [Node.js](https://nodejs.org/en/)
@@ -114,12 +114,11 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
+You can deploy your own website by following steps below.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
@@ -127,7 +126,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Follow the Instructions to install and set up your app._
 
 1. Fork this repo [https://github.com/deepika25kar/CourseShopAppm](https://github.com/deepika25kar/CourseShopApp)
 2. Add your MongoDB Database URL in app.js
@@ -151,7 +150,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This project can be used as a template for making user friendly eCommerce shopping website.
 
 _For more examples, please refer to the [Documentation](https://github.com/deepika25kar/CourseShopApp/README.md)_
 
@@ -217,7 +216,7 @@ Project Link: [https://github.com/deepika25kar/CourseShopApp](https://github.com
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+List of resources that i found helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
