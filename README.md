@@ -128,7 +128,7 @@ To get a local copy up and running follow these simple example steps.
 
 _Follow the Instructions to install and set up your app._
 
-1. Fork this repo [https://github.com/deepika25kar/CourseShopAppm](https://github.com/deepika25kar/CourseShopApp)
+1. Fork this repo [CourseShopApp](https://github.com/deepika25kar/CourseShopApp)
 2. Add your MongoDB Database URL in app.js
 3. Install NPM packages
    ```sh
