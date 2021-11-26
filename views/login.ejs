@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+        * {
+            font-family: 'Gowun Dodum', sans-serif;
+        }
+
+        body {
+            background-color: rgb(239, 231, 241);
+        }
+
+        .navbar {
+            background-color: rgb(92, 5, 114);
+            border-radius: 6px;
+            margin: 5px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color: rgb(224, 162, 201);
+        }
+
+        .search {
+            float: right;
+            color: rgb(224, 162, 201);
+            padding: 12px 75px;
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 4px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+
+        .heading {
+            margin: 35px auto;
+            width: 100px;
+            color: rgb(92, 5, 114);
+            font-size: 18px;
+        }
+
+        .container {
+            font-size: 18px;
+            /* border: 2px solid black; */
+            box-shadow: 2px 2px 20px black;
+            border-radius: 5px;
+            color: black;
+            margin: 50px auto;
+            background-color: rgb(235, 221, 238);
+            display: block;
+            width: 350px;
+            padding: 40px;
+            text-align: center;
+        }
+
+        #email {
+            padding: 7px;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        #pwd {
+            padding: 7px;
+            width: 100%;
+            margin-bottom: 8px;
+            color: rgb(92, 5, 114);
+        }
+
+        .title,
+        .checkbox {
+            text-align: left;
+        }
+
+        #remember-me {
+            margin-bottom: 18px;
+        }
+
+        .btn {
+            width: 100%;
+            background: #eb8cdb;
+            padding: 10px;
+            border: 0;
+            border-radius: 3px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            cursor: pointer;
+            margin-bottom: 9px;
+            color: rgb(92, 5, 114);
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #eca3d4;
+        }
+
+        a {
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .pass-link a:hover {
+            text-decoration: underline;
+        }
+
+        .signup-link a:hover {
+            text-decoration: underline;
+        }
+
+        .signup-link a {
+            color: rgb(92, 5, 114);
+        }
+
+        .pass-link {
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="/signup">SIGN IN</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search">
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="heading">
+        <h1>Login</h1>
+    </div>
+
+    <div class="container">
+        <form action="/login" method="post">
+            <div class="title">
+                <label for="email">Email Address</label>
+                <input type="text" name="email" id="email" required>
+            </div>
+            <div class="title">
+                <label for="pwd">Password</label>
+                <input type="password" name="password" id="pwd" required>
+            </div>
+            <div class="content">
+                <div class="checkbox">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+    
+                <!-- <div>
+                    <button class="btn"><a href="/">LOGIN</a></button>               
+                </div> -->
+    
+                <div>
+                    <input action="/home" type="submit" value="Login" class="btn">
+                </div>
+       
+            </div>
+        </form>
+
+        
+        <div class="pass-link"><a href="/pwdgone">Forgot password?</a>
+        </div>
+        <div class="signup-link">Not a member? <a href="/signup">Signup now!</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+        body {
+            background-color: rgb(239, 231, 241);
+        }
+
+        .navbar {
+            background-color: rgb(92, 5, 114);
+            border-radius: 6px;
+            margin: 5px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            font-family: 'Gowun Dodum', sans-serif;
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color: rgb(224, 162, 201);
+        }
+
+        .search {
+            float: right;
+            color: rgb(224, 162, 201);
+            padding: 12px 75px;
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 4px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+
+        .heading {
+            margin: 35px auto;
+            width: 100px;
+            font-family: 'Gowun Dodum', sans-serif;
+            color: rgb(92, 5, 114);
+            font-size: 18px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            font-family: 'Gowun Dodum', sans-serif;   
+            font-size: 18px;
+            /* border: 2px solid black; */
+            box-shadow: 2px 2px 20px black;
+            border-radius: 5px;
+            color: black;
+            margin: 50px auto;
+            background-color: rgb(235, 221, 238);
+            display: block;
+            width: 350px;
+            padding: 30px;
+            text-align: center;        
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="/profile">My Profile</a></li>
+                <li><a href="/history">History</a></li>
+                <li><a href="/logout">LOG OUT</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search">
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="heading">
+        <h1>History</h1>
+    </div>
+
+    <!-- time , date of login , which course you buy and when , when did you pay and how much and when. -->
+    <div class="container">
+        <div class="box">
+            Course - <strong>Python</strong> <br><br>
+            Duration - 8 weeks <br>
+            Amount Paid - ₹1000 <br>
+            Started on - 5th May 2021 <br>
+            Ended on - 1st July 2021 <br>
+        </div>
+
+        <div class="box">
+            Course - <strong>Web Development</strong> <br><br>
+            Duration - 16 weeks <br>
+            Amount Paid - ₹1500 <br>
+            Started on - 1st January 2021 <br>
+            Ended on - 17th April 2021 <br>
+        </div>
+
+        <div class="box">
+            Course - <strong>Object Oriented Programming</strong> <br><br>
+            Duration - 6 weeks <br>
+            Amount Paid - ₹900 <br>
+            Started on - 11th October 2020 <br>
+            Ended on - 23rd November 2020 <br>
+        </div>
+
+        <div class="box">
+            Course - <strong>Java</strong> <br><br>
+            Duration - 10 weeks <br>
+            Amount Paid - ₹1800 <br>
+            Started on - 10th July 2020 <br>
+            Ended on - 19th September 2020 <br>
+        </div>
+
+        <div class="box">
+            Course - <strong>C++ Language</strong> <br><br>
+            Duration - 12 weeks <br>
+            Amount Paid - ₹2000 <br>
+            Started on - 6th April 2020 <br>
+            Ended on - 30th June 2020 <br>
+        </div>
+
+        <div class="box">
+            Course - <strong>C Language</strong> <br><br>
+            Duration - 12 weeks <br>
+            Amount Paid - ₹2000 <br>
+            Started on - 26th December 2019 <br>
+            Ended on - 20th March 2020 <br>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

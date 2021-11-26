@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+</head>
+
+<style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Gowun Dodum', sans-serif;
+        font-size: 17px;
+    }
+
+    body {
+        font-family: arial;
+        background-color: rgb(239, 231, 241);
+    }
+
+    .main {
+
+        margin: 2%;
+    }
+
+    .card {
+        width: 20%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px;
+        margin: 2%;
+        background-color:rgb(235, 221, 238);
+    }
+
+    .image img {
+        width: 100%;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    .title {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .title h1 {
+        font-size: 23px;
+    }
+
+    .des {
+        padding: 3px;
+        text-align: center;
+        padding-top: 10px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    button {
+        margin-top: 40px;
+        margin-bottom: 10px;
+        background-color: rgb(240, 215, 240);
+        border: 1px solid rgb(101, 0, 148);
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    button:hover {
+        background-color: rgb(101, 0, 148);
+        color: white;
+        transition: .3s;
+        cursor: pointer;
+    }
+
+    .navbar {
+        background-color: rgb(92, 5, 114);
+        border-radius: 6px;
+        margin: 5px;
+
+    }
+
+    .navbar ul {
+        overflow: auto;
+    }
+
+    .navbar li {
+        float: left;
+        list-style: none;
+        margin: 13px 20px;
+    }
+
+    .navbar li a {
+        padding: 3px 3px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .navbar li a:hover {
+        color: rgb(224, 162, 201);
+    }
+
+    .search {
+        float: right;
+        color: rgb(224, 162, 201);
+        padding: 12px 75px;
+    }
+
+    .navbar input {
+        border: 2px solid black;
+        border-radius: 4px;
+        padding: 3px 17px;
+        width: 129px;
+    }
+
+    #des-16 {
+        padding-top: 0px;
+    }
+
+    .heading h1 {
+        margin: 35px auto;
+        width: 135px;
+        font-family: 'Gowun Dodum', sans-serif;
+        color: rgb(92, 5, 114);
+        font-size: 38px;
+    }
+</style>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="/profile">My Profile</a></li>
+                <li><a href="/history">History</a></li>                
+                <li><a href="/logout">LOG OUT</a></li>
+
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search">
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="heading">
+        <h1>Home</h1>
+    </div>
+
+
+    <div class="main">
+
+        <!--card1 -->
+
+        <div class="card">
+
+            <div class="image">
+                <img src="python.jpg" height=145px>
+            </div>
+            <div class="title">
+                <h1>Python</h1>
+            </div>
+            <div class="des">
+                <p>Learn Python in 8 weeks</p>
+                <button>Read More</button>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+        <!--card2 -->
+
+        <div class="card">
+
+            <div class="image">
+                <img src="c.png">
+            </div>
+            <div class="title">
+                <h1>C Language</h1>
+            </div>
+            <div class="des">
+                <p>Learn C language in 12 weeks</p>
+                <button>Read More</button>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+
+        <!--card3 -->
+
+        <div class="card">
+
+            <div class="image">
+                <img src="cpp.jfif" height=145px>
+            </div>
+            <div class="title">
+                <h1>C++ Language</h1>
+            </div>
+            <div class="des">
+                <p>Learn C++ in 12 weeks</p>
+                <button>Read More</button>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+
+        <!--card4 -->
+
+        <div class="card">
+
+            <div class="image">
+                <img src="java.png" height=145px>
+            </div>
+            <div class="title">
+                <h1>Java</h1>
+            </div>
+            <div class="des">
+                <p>Learn Java in 10 weeks</p>
+                <button>Read More</button>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+
+        <!--card5 -->
+
+        <div class="card">
+
+            <div class="image">
+                <img src="cybb.jfif" height=145px>
+            </div>
+            <div class="title">
+                <h1>Cyber Security</h1>
+            </div>
+            <div class="des">
+                <p>Learn C++ in 12 weeks</p>
+                <button>Read More</button>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+
+        <!--card6 -->
+
+        <div class="card">
+
+            <div class="image">
+                <img src="webdev.jfif" height=145px>
+            </div>
+            <div class="title">
+                <h1>Web Development</h1>
+            </div>
+            <div class="des">
+                <p>Learn web development in 16 weeks</p>
+                <button>Read More</button>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+
+        <!--card7 -->
+
+        <div class="card">
+
+            <div class="image">
+                <img src="hacking.jfif" height=145px>
+            </div>
+            <div class="title">
+                <h1>Ethical Hacking</h1>
+            </div>
+            <div class="des">
+                <p>Learn ethical hacking in 4 weeks</p>
+                <button>Read More</button>
+                <button>Buy Now</button>
+
+            </div>
+        </div>
+
+
+        <!--card8 -->
+
+        <div class="card">
+
+            <div class="image">
+                <img src="datastr.jpg" height=145px>
+            </div>
+            <div class="title">
+                <h1>Data Structures</h1>
+            </div>
+            <div class="des">
+                <p>Learn data structures in 12 months</p>
+                <button>Read More</button>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+
+        <!--card9 -->
+
+        <div class="card">
+
+            <div class="image">
+                <img src="algo.jpg" height=145px>
+            </div>
+            <div class="title">
+                <h1>Algorithms</h1>
+            </div>
+            <div class="des">
+                <p>Learn algorithms in 8 weeks</p>
+                <button>Read More</button>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+
+        <!--card10 -->
+
+        <div class="card">
+
+            <div class="image">
+                <img src="android.png" height=145px>
+            </div>
+            <div class="title">
+                <h1>Android Development</h1>
+            </div>
+            <div class="des">
+                <p>Learn android development in 12 weeks</p>
+                <button>Read More</button>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+
+        <!--card11 -->
+
+        <div class="card">
+
+            <div class="image">
+                <img src="php.png" height=145px>
+            </div>
+            <div class="title">
+                <h1>php</h1>
+            </div>
+            <div class="des">
+                <p>Learn php in 16 weeks</p>
+                <button>Read More</button>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+
+        <!--card12 -->
+
+        <div class="card">
+
+            <div class="image">
+                <img src="git.jpg" height=145px>
+            </div>
+            <div class="title">
+                <h1>Git</h1>
+            </div>
+            <div class="des">
+                <p>Learn git in 4 weeks</p>
+                <button>Read More</button>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+
+        <!--card13 -->
+
+        <div class="card">
+
+            <div class="image">
+                <img src="js.png" height=145px>
+            </div>
+            <div class="title">
+                <h1>JavaScript</h1>
+            </div>
+            <div class="des">
+                <p>Learn JavaScript in 16 weeks</p>
+                <button>Read More</button>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+
+        <!--card14 -->
+
+        <div class="card">
+
+            <div class="image">
+                <img src="django.jpg" height=145px>
+            </div>
+            <div class="title">
+                <h1>Django</h1>
+            </div>
+            <div class="des">
+                <p>Learn Django in 12 weeks</p>
+                <button>Read More</button>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+
+        <!--card15 -->
+
+        <div class="card">
+
+            <div class="image">
+                <img src="ml.jfif" height=145px>
+            </div>
+            <div class="title">
+                <h1>Machine Learning</h1>
+            </div>
+            <div class="des">
+                <p>Learn machine learning in 16 weeks</p>
+                <button>Read More</button>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+
+        <!--card16 -->
+
+        <div class="card">
+
+            <div class="image">
+                <img src="oops.jpg" height=100px>
+            </div>
+            <div class="title">
+                <h1>Object Oriented Programming</h1>
+            </div>
+            <div class="des" id="des-16">
+                <p>Learn object oriented programming in 6 weeks</p>
+                <button>Read More</button>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+        * {
+            font-family: 'Gowun Dodum', sans-serif;
+        }
+
+        body {
+            background-color: rgb(239, 231, 241);
+        }
+
+        .navbar {
+            background-color: rgb(92, 5, 114);
+            border-radius: 6px;
+            margin: 5px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            /* font-family: 'Gowun Dodum', sans-serif; */
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color: rgb(224, 162, 201);
+        }
+
+        .search {
+            float: right;
+            color: rgb(224, 162, 201);
+            padding: 12px 75px;
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 4px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+
+        .heading {
+            margin: 35px auto;
+            width: 270px;
+            /* font-family: 'Gowun Dodum', sans-serif; */
+            color: rgb(92, 5, 114);
+            font-size: 18px;
+        }
+
+        .container {
+            font-size: 18px;
+            /* border: 2px solid black; */
+            box-shadow: 2px 2px 20px black;
+            border-radius: 5px;
+            color: rgb(92, 5, 114);
+            margin: 50px auto;
+            background-color: rgb(235, 221, 238);
+            display: block;
+            width: 350px;
+            padding: 40px;
+            text-align: center;
+        }
+
+        #email {
+            padding: 7px;
+            width: 100%;
+            margin-bottom: 25px;
+        }
+
+        #otp {
+            padding: 7px;
+            width: 100%;
+            margin-bottom: 25px;
+        }
+
+        #pwd {
+            padding: 7px;
+            width: 100%;
+            margin-bottom: 8px;
+        }
+
+        .field {
+            text-align: left;
+        }
+
+        .field .submit {
+            width: 100%;
+            background: #eb8cdb;
+            padding: 10px;
+            border: 0;
+            border-radius: 3px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            cursor: pointer;
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+            color:rgb(92, 5, 114);
+            font-weight: bold;
+        }
+
+        .field .submit:hover {
+            background: #eca3d4;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="/signup">SIGN UP</a></li>
+                <li><a href="/login">LOG IN</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search">
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="heading">
+        <h1>Forgot Password?</h1>
+    </div>
+
+    <div class="container">
+        <form action="#">
+            <div class="field">
+                <label>Email Address or Phone Number</label>
+                <input type="text" id="email" required>
+            </div>
+            <div class="field">
+                <label>Enter 6 digit OTP sent to your Email or Phone Number</label>
+                </label>
+                <input type="text" id="otp" required>
+            </div>
+            <div class="field">
+                <label>Choose new password</label>
+                <input type="password" id="pwd" required>
+            </div>
+            <div class="field">
+                <input type="submit" value="Submit" class="submit">                            
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
