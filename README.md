@@ -216,7 +216,7 @@ Project Link: [https://github.com/deepika25kar/CourseShopApp](https://github.com
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-List of resources that i found helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+List of resources that I found helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
